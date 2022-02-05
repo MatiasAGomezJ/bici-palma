@@ -1,4 +1,4 @@
-package edu.poniperro.domain;
+package edu.poniperro.domain.bicicleta;
 
 public class Bicicleta implements Movil {
 

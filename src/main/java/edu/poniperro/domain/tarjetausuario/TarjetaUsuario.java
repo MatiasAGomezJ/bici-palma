@@ -1,4 +1,4 @@
-package edu.poniperro.domain;
+package edu.poniperro.domain.tarjetausuario;
 
 public class TarjetaUsuario implements Autenticacion {
 
