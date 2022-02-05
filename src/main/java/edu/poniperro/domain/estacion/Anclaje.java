@@ -1,5 +1,5 @@
 package edu.poniperro.domain.estacion;
-import edu.poniperro.domain.bicicleta.Movil;
+import edu.poniperro.domain.bicicleta.*;
 
 public class Anclaje {
     private boolean ocupado = false;

@@ -26,7 +26,7 @@ public class Anclajes {
         return anclajes.length;
     }
 
-    void ocuparAnclajeOcupado(int posAnclaje, Movil bici) {
+    void ocuparAnclaje(int posAnclaje, Movil bici) {
         anclajes[posAnclaje].anclarBici(bici);
     }
 
