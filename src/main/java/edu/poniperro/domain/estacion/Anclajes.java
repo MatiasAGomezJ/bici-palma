@@ -10,6 +10,7 @@ public class Anclajes {
 
     Anclajes(int numAnclajes) {
         this.anclajes = new Anclaje[numAnclajes];
+        creaAnclajes();
     }
 
     private void creaAnclajes() {
@@ -30,7 +31,7 @@ public class Anclajes {
         anclajes[posAnclaje].anclarBici(bici);
     }
 
-    boolean isAnclajeOupado(int posAnclaje) {
+    boolean isAnclajeOcupado(int posAnclaje) {
         return anclajes[posAnclaje].isOcupado();
     }
 
